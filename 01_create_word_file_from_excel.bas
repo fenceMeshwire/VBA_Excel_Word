@@ -13,7 +13,7 @@ Dim strPath As String
 strPath = ThisWorkbook.Path & "\" & "document.docx"
 
 Set wkbBook = ThisWorkbook
-Set wksSheet = Tabelle1
+Set wksSheet = Sheet1
 
 ' Create a Word document
 Set objWordApp = CreateObject("Word.Application")
